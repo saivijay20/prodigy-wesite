@@ -1,0 +1,207 @@
+html, body {
+	overflow:hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#login{
+position: absolute;
+margin-top: -40%;
+margin-left: 89%;
+width: 85px;
+    }
+
+#login:hover {
+    
+ -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+
+#bgtop {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%    }
+#bgdown {
+    position:relative;
+    top: 75%;
+    width: 100%;
+    height: 100%
+}
+#logo{
+position: absolute;
+top: 0%;
+width: 70%;
+height: 80%;
+}
+#base1{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+}
+#top1{
+position: absolute;
+top: -6px;
+width: 100%;
+height: 100%;
+}
+
+#top2{
+position: absolute;
+top: -6px;
+left: -2px;
+width: 100%;
+height: 100%;
+}
+#base2{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+}
+#turbine1{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+}
+#turbine2{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+}
+#blockconstant{
+position: absolute;
+top: 0%;
+width: 100%;
+height: 100%;
+}
+.wheel1{
+position: absolute;
+top: 51%;
+left: 52%;
+}
+.wheel2{
+position: absolute;
+top: 51%;
+left: 47%;
+}
+.wheel3{
+position: absolute;
+top: 67%;
+left: 73%;
+}
+.wheel4{
+position: absolute;
+top: 67%;
+left: 75.5%;
+}
+.wheel5{
+position: absolute;
+top: 66.7%;
+left: 78%;
+}
+.wheel6{
+position: absolute;
+top: 66%;
+left: 36%;
+}
+#movingblock1{
+position: absolute;
+top: 0%;
+width: 39px;
+}
+.movingblock1{
+position: absolute;
+top: 60%;
+left: 35.7%;
+width: 3%;
+height: 35px;
+}
+#movingblock2{
+position: absolute;
+top: 0%;
+width: 25px;
+background-repeat: repeat-y;
+}
+.movingblock2{
+position: absolute;
+top: 63%;
+left: 50%;
+width: 30%;
+height: 35px;
+background-repeat: repeat-x;
+}
+/*animation*/
+#wheel5 {
+	width: 45px;
+    height:auto;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+#wheel4 {
+	width: 40px;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+#wheel3 {
+	width: 40px;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+#wheel2 {
+	width: 90px;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+#wheel1 {
+	width: 80px;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+#wheel6 {
+	width: 37px;
+
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+
+
+
